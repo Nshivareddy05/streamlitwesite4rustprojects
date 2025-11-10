@@ -5,7 +5,7 @@ from PIL import Image
 from io import BytesIO
 import base64
 
-st.set_page_config(page_title="Shiva ⸱ Rust & Systems Dev", page_icon="⚙️", layout="wide")
+st.set_page_config(page_title="Shiva ⸱Machinhe Learning & Rust & Systems Dev", page_icon="⚙️", layout="wide")
 
 @st.cache_data(show_spinner=False)
 def fetch_json(url: str, timeout=8):
@@ -60,7 +60,7 @@ st.markdown(f"<style>{CSS}</style>", unsafe_allow_html=True)
 
 col1, col2 = st.columns([2,3])
 with col1:
-    st.markdown("#Machine Learning using Rust")
+    st.markdown("Machine Learning & Rust")
     st.markdown("**Building fast, reliable Machine Leaning Algorithms using Rust.**")
     st.markdown("[Resume](#replace-with-your-resume-link) · [✉️ Email](mailto:shivamanoharareddy05@gmail.com)")
 
@@ -74,7 +74,7 @@ with col2:
 
 st.markdown("---")
 
-st.markdown("## ⚡ Selected Projects")
+st.markdown("## Selected Projects")
 projects = [
     {"title": "rust-wasm-game-engine", "desc": "Tiny fast 2D engine (WASM).", "tags": ["Rust","WASM","Graphics"], "image": "https://via.placeholder.com/400x240.png?text=Project+1", "link": "https://github.com/yourusername/rust-wasm-game-engine"},
     {"title": "fast-logger", "desc": "Zero-alloc logger for telemetry.", "tags": ["Rust","Logging","Perf"], "image": "https://via.placeholder.com/400x240.png?text=Project+2", "link": "https://github.com/yourusername/fast-logger"},
