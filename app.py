@@ -60,10 +60,9 @@ st.markdown(f"<style>{CSS}</style>", unsafe_allow_html=True)
 
 col1, col2 = st.columns([2,3])
 with col1:
-    st.markdown("# Shiva ⸱ Rust & Systems Developer")
-    st.markdown("**Building fast, reliable tools and system-level projects in Rust.**")
-    st.markdown("**Skills:** Rust · Systems Programming · WASM · CI/CD · Linux · Embedded")
-    st.markdown("[Resume](#replace-with-your-resume-link) · [✉️ Email](mailto:your.email@example.com)")
+    st.markdown("#Machine Learning using Rust")
+    st.markdown("**Building fast, reliable Machine Leaning Algorithms using Rust.**")
+    st.markdown("[Resume](#replace-with-your-resume-link) · [✉️ Email](mailto:shivamanoharareddy05@gmail.com)")
 
 with col2:
     st.image("https://via.placeholder.com/640x300.png?text=Shiva+Hero", use_container_width=True)
@@ -105,11 +104,11 @@ for i, p in enumerate(projects):
         st.markdown("</div>", unsafe_allow_html=True)
 
 st.markdown("---")
-st.markdown("## 👨‍💻 About Me")
-st.write("I build system-level tools, hobby OS experiments, and Rust libraries. I focus on performance, correctness, and clean APIs.")
+st.markdown("## About Me")
+st.write("I build machine algorithms in rust and julia, hobby OS experiments, and Rust libraries. I focus on performance, correctness, and clean APIs.")
 
 st.markdown("### 🕒 Timeline")
-st.markdown("- 2022 ⸱ Started serious Rust projects and contributed to open-source\n- 2023 ⸱ Built first WASM-based engine\n- 2024 ⸱ Shipping embedded firmware in Rust for sensor project")
+st.markdown("- 2024 ⸱ Started serious Rust projects \n- 2025 ⸱ Built a auto data cleaning python module")
 
 st.markdown("---")
 st.markdown("## 📬 Get in touch")
